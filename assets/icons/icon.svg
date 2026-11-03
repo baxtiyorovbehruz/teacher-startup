@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">Tadbirkor.uz favicon</title>
+  <desc id="desc">Rounded square icon with a T monogram and growth arrow.</desc>
+  <defs>
+    <linearGradient id="bg" x1="24" y1="20" x2="220" y2="236" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1f3240"/>
+      <stop offset="1" stop-color="#0f1820"/>
+    </linearGradient>
+    <linearGradient id="brand" x1="72" y1="76" x2="182" y2="182" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#df6d48"/>
+      <stop offset="1" stop-color="#16957a"/>
+    </linearGradient>
+    <linearGradient id="spark" x1="108" y1="120" x2="190" y2="120" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffe3a3"/>
+      <stop offset="1" stop-color="#fff8e8"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="256" height="256" rx="64" fill="url(#bg)"/>
+  <rect x="20" y="20" width="216" height="216" rx="52" fill="none" stroke="#ffffff" stroke-opacity="0.08"/>
+  <path d="M76 82h104" fill="none" stroke="url(#brand)" stroke-linecap="round" stroke-width="24"/>
+  <path d="M128 82v98" fill="none" stroke="url(#brand)" stroke-linecap="round" stroke-width="24"/>
+  <path d="M108 166l28-28 20 20 30-42" fill="none" stroke="url(#spark)" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <path d="M176 116h16v16" fill="none" stroke="url(#spark)" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <circle cx="190" cy="62" r="10" fill="#fff4d8"/>
+</svg>
