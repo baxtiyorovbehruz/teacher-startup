@@ -1,4 +1,4 @@
-const CACHE_NAME = 'tadbirkor-shell-v5';
+const CACHE_NAME = 'tadbirkor-shell-v6';
 const PUBLIC_PAGES = new Set(['login', 'register']);
 const SHELL_ASSETS = [
     '/?page=login',

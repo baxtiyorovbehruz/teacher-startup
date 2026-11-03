@@ -23,7 +23,7 @@ $filters = $filters ?? [];
     <link rel="icon" href="<?= e(asset('assets/icons/icon-192.png')) ?>" type="image/png" sizes="192x192">
     <link rel="shortcut icon" href="<?= e(asset('assets/icons/icon.svg')) ?>" type="image/svg+xml">
     <link rel="apple-touch-icon" href="<?= e(asset('assets/icons/icon-180.png')) ?>" sizes="180x180">
-    <link rel="stylesheet" href="<?= e(asset('assets/css/app.css')) ?>">
+    <link rel="stylesheet" href="<?= e(asset('assets/css/app.css?v=2.1')) ?>">
 </head>
 <body class="<?= e($pageClass ?? '') ?>" data-csrf="<?= e(csrf_token()) ?>" data-db-ready="<?= $dbError === null ? '1' : '0' ?>">
     <div class="site-backdrop" aria-hidden="true"></div>
@@ -111,6 +111,6 @@ $filters = $filters ?? [];
             baseUrl: <?= json_encode(base_url(), JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES) ?>
         };
     </script>
-    <script src="<?= e(asset('assets/js/app.js')) ?>" defer></script>
+    <script src="<?= e(asset('assets/js/app.js?v=2.1')) ?>" defer></script>
 </body>
 </html>
