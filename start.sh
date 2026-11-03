@@ -61,7 +61,8 @@ echo "export APP_URL='${APP_URL:-}'" >> /etc/apache2/envvars
 sed -i "s/Listen [0-9]*/Listen $PORT/g" /etc/apache2/ports.conf
 sed -i "s/<VirtualHost \*:[0-9]*>/<VirtualHost \*:$PORT>/g" /etc/apache2/sites-available/000-default.conf
 
-# Permissions for storage directory
+# Ensure storage directories exist and have proper permissions
+mkdir -p /var/www/html/storage/avatars /var/www/html/storage/ideas
 chown -R www-data:www-data /var/www/html/storage /var/www/html/assets/uploads 2>/dev/null || true
 chmod -R 775 /var/www/html/storage /var/www/html/assets/uploads 2>/dev/null || true
 
